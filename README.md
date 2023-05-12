@@ -1,15 +1,18 @@
 # tmux color
 
-https://unix.stackexchange.com/questions/118806/tmux-term-and-256-colours-support
+https://github.com/tmux/tmux/issues/1246
 
 
-~/.tmux.config
-```
-set -g default-terminal "xterm-256color"
-```
+Edit ~/.tmux.config
+#  bit color
+set -g default-terminal "tmux-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+Edit: .vimrc
 
-If this not works for vim in tmux, then `tmux -2` will work.
-Add alias tmux='tmux -2' in ~/.bashrc.
+" Enable true color 24 bit
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 
-# Reference
-https://unix.stackexchange.com/questions/118806/tmux-term-and-256-colours-support
