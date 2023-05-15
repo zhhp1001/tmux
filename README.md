@@ -55,6 +55,10 @@ Prefix `<` Swap pane
 
 Prefix `|` Swap pane
 
+## Copy Mode
+`Alt + v`  Enter copy mode
+
+`q`        Exit copy mode
 
 # Reference
 1. https://github.com/tmux/tmux/issues/1246
