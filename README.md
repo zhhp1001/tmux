@@ -93,6 +93,11 @@ The JSON file will open and appear on the screen. Go to the “Profiles” optio
 "copyOnSelect": true
 ```
 
+## Unbound `Alt + Space`
+```
+{ "command": "unbound", "keys": "alt+space" }
+```
+
 # Reference
 1. https://github.com/tmux/tmux/issues/1246
 2. https://github.com/tmux/tmux/issues/2191
