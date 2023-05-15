@@ -24,20 +24,31 @@ export TERM=xterm-256color
 `Alt + window_number`
 ## Create Pane
 Prefix `l` Right
+
 Prefix `h` Left
+
 Prefix `j` Down
+
 Prefix `k` Up
 ## Pane Navigation
 `Alt + shift + window_number` Move current pane to window_number
+
 `Alt + l` Right
+
 `Alt + h` Left
+
 `Alt + j` Down
+
 `Alt + k` Up
 ## Reorg 
 `Alt + f` Pane full screen
+
 `Alt + space` Change layout
+
 Prefix `>` Swap pane
+
 Prefix `<` Swap pane
+
 Prefix `|` Swap pane
 
 
