@@ -62,7 +62,7 @@ Prefix `|` Swap pane
 
 # Terminal Emulator
 Windows: terminal
-
+## Auto SSH
 1. Add SSH to Windows Terminal
 The JSON file will open and appear on the screen. Go to the “Profiles” options menu and then move to the “list” array:
 
@@ -78,6 +78,11 @@ The JSON file will open and appear on the screen. Go to the “Profiles” optio
 ```
 
 3. Click Openssh in the New Tab of Windows Terminal
+
+## Enable Right Click Paste
+```
+"copyOnSelect": true
+```
 
 # Reference
 1. https://github.com/tmux/tmux/issues/1246
