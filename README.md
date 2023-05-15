@@ -60,6 +60,26 @@ Prefix `|` Swap pane
 
 `q`        Exit copy mode
 
+# Terminal Emulator
+Windows: terminal
+
+1. Add SSH to Windows Terminal
+The JSON file will open and appear on the screen. Go to the “Profiles” options menu and then move to the “list” array:
+
+2. Paste the below-provided code in the list array after the “},” comma. Change the “commandline” information and paste your ssh credentials. Also, choose the name for your new SSH connection window.
+
+```
+       {
+        "commandline": "ssh anuma@192.168.0.106",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6121}",
+        "hidden": false,
+        "name": "Openssh"
+        },
+```
+
+3. Click Openssh in the New Tab of Windows Terminal
+
 # Reference
 1. https://github.com/tmux/tmux/issues/1246
 2. https://github.com/tmux/tmux/issues/2191
+3. https://linuxhint.com/use-new-windows-terminal-ssh/
