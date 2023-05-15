@@ -20,6 +20,8 @@ export TERM=xterm-256color
 ```
 
 # Cheat Sheet
+## Prefix
+`Ctrl + s`
 ## Window Navigation
 `Alt + window_number`
 ## Create Pane
