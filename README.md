@@ -60,6 +60,13 @@ Prefix `|` Swap pane
 
 `q`        Exit copy mode
 
+## Session
+`tmux kill-server`
+
+`tmux kill-session -t session_number`
+
+`tmux a -t session_number`
+
 # Terminal Emulator
 Windows: terminal
 ## Auto SSH
