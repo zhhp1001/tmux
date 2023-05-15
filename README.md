@@ -61,6 +61,8 @@ Prefix `|` Swap pane
 `q`        Exit copy mode
 
 ## Session
+`tmux ls`
+
 `tmux kill-server`
 
 `tmux kill-session -t session_number`
