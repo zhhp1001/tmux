@@ -3,10 +3,10 @@
  
    https://github.com/tmux/tmux/wiki
 
-2. git clone config file to `~/.config/tmux/.tmux.config` 
+2. git clone config file to `~/.config/tmux/tmux.conf` 
 
 # tmux color
-Edit `.tmux.config`
+Edit `tmux.conf`
 
 ```bash
 set -g default-terminal "tmux-256color"
