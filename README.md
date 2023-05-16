@@ -1,7 +1,7 @@
 # Install
 1. Follow wiki to install tmux with `version > 3.1 `
  
-https://github.com/tmux/tmux/wiki
+   https://github.com/tmux/tmux/wiki
 
 2. git clone config file to `~/.config/tmux/.tmux.config` 
 # tmux color
