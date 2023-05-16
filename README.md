@@ -2,11 +2,13 @@
 `~/.config/tmux/.tmux.config` 
 # tmux color
 Edit `.tmux.config`
+
 ```bash
 set -g default-terminal "tmux-256color"
 set -ga terminal-overrides ",*256col*:Tc"
 ```
-Edit: ~/.vim/vimrc
+Edit: `~/.vim/vimrc`
+
 ```bash
 " Enable true color 24 bit
 if exists('+termguicolors')
@@ -15,7 +17,8 @@ if exists('+termguicolors')
   set termguicolors
 endif
 ```
-Edit: ~/.bashrc
+Edit: `~/.bashrc`
+
 The `$TERM` in tmux should be equal to outside of tmux, when using Truecolor.
 ```bash
 export TERM=xterm-256color
@@ -24,9 +27,12 @@ export TERM=xterm-256color
 # Cheat Sheet
 ## Prefix
 `Ctrl + s`
+## Window Management
+Prefix `c` Create window
+Prefix `&` kill current window
 ## Window Navigation
 `Alt + window_number`
-## Create Pane
+## Pane Management
 Prefix `l` Right
 
 Prefix `h` Left
@@ -34,6 +40,8 @@ Prefix `h` Left
 Prefix `j` Down
 
 Prefix `k` Up
+
+Prefix `x` kill current pane
 ## Pane Navigation
 `Alt + shift + window_number` Move current pane to window_number
 
