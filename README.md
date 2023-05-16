@@ -4,6 +4,7 @@
    https://github.com/tmux/tmux/wiki
 
 2. git clone config file to `~/.config/tmux/.tmux.config` 
+
 # tmux color
 Edit `.tmux.config`
 
@@ -29,13 +30,17 @@ export TERM=xterm-256color
 ```
 
 # Cheat Sheet
+
 ## Prefix
 `Ctrl + s`
+
 ## Window Management
 Prefix `c` Create window
 Prefix `&` kill current window
+
 ## Window Navigation
 `Alt + window_number`
+
 ## Pane Management
 Prefix `l` Right
 
@@ -46,6 +51,7 @@ Prefix `j` Down
 Prefix `k` Up
 
 Prefix `x` kill current pane
+
 ## Pane Navigation
 `Alt + shift + window_number` Move current pane to window_number
 
@@ -56,7 +62,14 @@ Prefix `x` kill current pane
 `Alt + j` Down
 
 `Alt + k` Up
-## Reorg 
+
+Prefix `W` Choose tree
+
+Prefix `V` Choose tree
+
+Prefix `S` Choose tree
+
+## Pane Reorg 
 `Alt + f` Pane full screen
 
 `Alt + space` Change layout
@@ -67,10 +80,30 @@ Prefix `<` Swap pane
 
 Prefix `|` Swap pane
 
+`Alt + shift + H` Resize pane
+
+`Alt + shift + J` Resize pane
+
+`Alt + shift + K` Resize pane
+
+`Alt + shift + L` Resize pane
+
 ## Copy Mode
 `Alt + v`  Enter copy mode
 
 `q`        Exit copy mode
+
+`space`    Hight text
+
+`Enter`    Copy and Exit copy mode
+
+Prefix `b` list buffers
+
+Prefix `p` paste buffer
+
+Prefix `-` delete the most recently copied buffer of text
+
+Prefix `=` Choose which buffer to paste
 
 ## Session
 `tmux ls`
@@ -83,6 +116,7 @@ Prefix `|` Swap pane
 
 # Terminal Emulator
 Windows: terminal
+
 ## Auto SSH
 1. Add SSH to Windows Terminal
 The JSON file will open and appear on the screen. Go to the “Profiles” options menu and then move to the “list” array:
