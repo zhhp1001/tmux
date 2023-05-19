@@ -88,6 +88,9 @@ Prefix `|` Swap pane
 
 `Alt + shift + L` Resize pane
 
+### Move pane to another window
+`Alt + shift + window_number` Move current pane to window_number
+
 ## Copy Mode
 `Alt + v`  Enter copy mode
 
