@@ -28,6 +28,14 @@ The `$TERM` in tmux should be equal to outside of tmux, when using Truecolor.
 ```bash
 export TERM=xterm-256color
 ```
+# VSCode
+
+Add the following content to ~/.bashrc or ~/.zshrc
+
+```bash
+socket=$(ls -1t /run/user/$UID/vscode-ipc-*.sock 2> /dev/null | head -1)
+export VSCODE_IPC_HOOK_CLI=${socket}
+```
 
 # Cheat Sheet
 
