@@ -30,6 +30,19 @@ export TERM=xterm-256color
 ```
 # VSCode
 
+To avoid the connect issue
+
+```bash
+Unable to connect to VS Code server: Error in request.
+Error: connect ENOENT /run/user/1000/vscode-ipc-71ef2cb8-3830-4c40-8bc3-a611f677336c.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1247:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/run/user/1000/vscode-ipc-71ef2cb8-3830-4c40-8bc3-a611f677336c.sock'
+}
+```
+
 Add the following content to ~/.bashrc or ~/.zshrc
 
 ```bash
