@@ -30,7 +30,14 @@ export TERM=xterm-256color
 ```
 # VSCode
 
-To avoid the connect issue
+Add the following content to ~/.bashrc or ~/.zshrc
+
+```bash
+socket=$(ls -1t /run/user/$UID/vscode-ipc-*.sock 2> /dev/null | head -1)
+export VSCODE_IPC_HOOK_CLI=${socket}
+```
+
+`source ~/.bashrc` when this connection issue occured:
 
 ```bash
 Unable to connect to VS Code server: Error in request.
@@ -42,14 +49,6 @@ Error: connect ENOENT /run/user/1000/vscode-ipc-71ef2cb8-3830-4c40-8bc3-a611f677
   address: '/run/user/1000/vscode-ipc-71ef2cb8-3830-4c40-8bc3-a611f677336c.sock'
 }
 ```
-
-Add the following content to ~/.bashrc or ~/.zshrc
-
-```bash
-socket=$(ls -1t /run/user/$UID/vscode-ipc-*.sock 2> /dev/null | head -1)
-export VSCODE_IPC_HOOK_CLI=${socket}
-```
-
 # Cheat Sheet
 
 ## Prefix
