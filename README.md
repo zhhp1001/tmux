@@ -3,7 +3,7 @@
  
    https://github.com/tmux/tmux/wiki
 
-2. git clone config file to `~/.config/tmux/tmux.conf` 
+2. git clone this repo to `~/.config/` 
 
 # tmux color
 Edit `tmux.conf`
