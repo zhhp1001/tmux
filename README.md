@@ -100,13 +100,13 @@ Prefix `<` Swap pane
 
 Prefix `|` Swap pane
 
-`Alt + shift + H` Resize pane
+`Alt + shift + h` Resize pane
 
-`Alt + shift + J` Resize pane
+`Alt + shift + j` Resize pane
 
-`Alt + shift + K` Resize pane
+`Alt + shift + k` Resize pane
 
-`Alt + shift + L` Resize pane
+`Alt + shift + l` Resize pane
 
 ### Move pane to another window
 `Alt + shift + window_number` Move current pane to window_number
